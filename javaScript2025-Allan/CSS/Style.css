@@ -1,0 +1,19 @@
+body{
+    background-color: #f4f4f4;
+}
+@media (max-width:480px) {
+    body {
+       background-color: red;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 980px) {
+    body {
+        background-color: green;
+    }
+}
+@media (min-width: 481px) and (max-width: 980px) {
+    body {
+        background-color: rgb(255, 225, 0);
+    }
+}
